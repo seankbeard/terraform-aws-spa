@@ -1,0 +1,20 @@
+## Vim
+**/*.swp
+
+## TF locks
+**/*.lock.hcl
+
+## Terraform
+**/.terraform
+
+.git
+.terraform/
+.terraform.tfstate.lock.info
+.terraform.lock*
+terraform.tfstate*
+terraform.tfstate.backup*
+*.tfstate
+*.swp
+
+.idea
+**/.test-data
